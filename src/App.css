@@ -1,0 +1,44 @@
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+  gap: 2%;
+  border: 3px dotted #2196F3;
+  padding-bottom:20px;
+  padding-top:20px;
+
+}
+.input{
+  width: 50%;
+  margin-left: 30%;
+}
+button{
+  width: 50%;
+  background-color: #535353;
+  color: aliceblue;
+  margin: 3px 30%;
+  height:40px
+  
+}
+
+.filter{
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+padding-left: 10%;
+display: flex;
+justify-content: space-evenly;
+}
+.img{
+  height: 250px;
+  width : 100% ; 
+}
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
